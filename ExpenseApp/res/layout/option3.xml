@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+       android:gravity="center"
+       android:text="Are you sure you want to delete the  record?"/>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+        <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="OK"
+        android:gravity="center"
+        android:id="@+id/ok"
+        />
+        
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+       android:gravity="center"
+        />
+    
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="CANCEL"
+        android:gravity="center"
+        android:id="@+id/cancel"
+        />
+    </LinearLayout>
+    
+  
+</LinearLayout>

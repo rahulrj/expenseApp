@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images66"
+     >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        />
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/currentdate"
+        android:gravity="center"
+        android:text="add"
+        android:textSize="20dp"
+        />
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/currenttime"
+        android:gravity="center"
+        android:text="add"
+        android:textSize="20dp"
+        />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:id="@+id/multipurpose"
+    
+     >
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+    
+        
+</LinearLayout>
+
+
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+     
+       <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Save"
+        android:id="@+id/purpose"
+        />
+     <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Save"
+        android:id="@+id/money"
+        />
+   
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" />
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+      <TextView
+        android:layout_width="100dp"
+        android:layout_height="0dp" />
+      <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/sharewith"
+        android:text="Share"
+        />
+      </LinearLayout>
+      
+       <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp" />
+     
+      
+      
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+      <TextView
+        android:layout_width="100dp"
+        android:layout_height="0dp" />
+      
+      
+     <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Save"
+        android:id="@+id/save"
+        />
+     </LinearLayout>
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    
+       <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Sharewith"
+        />
+      
+ 
+   <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:id="@+id/amount"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Add"
+        android:id="@+id/addmoney"
+        />
+
+    <Button
+        android:id="@+id/buttonr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:background="@android:drawable/edit_text" />
+
+</LinearLayout>
